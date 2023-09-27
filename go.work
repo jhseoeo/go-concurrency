@@ -1,3 +1,10 @@
 go 1.20
 
-use ./chapter2
+use (
+	./chapter2
+	./chapter8/context
+	./chapter8/tcp
+	./chapter8/http
+	./chapter8/streaming
+	./chapter8/websocket
+)
